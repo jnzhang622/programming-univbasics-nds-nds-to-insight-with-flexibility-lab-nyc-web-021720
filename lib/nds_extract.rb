@@ -61,6 +61,16 @@ def movies_with_director_key(name, movies_collection)
    end
    pp aoh_dir_plus_movies
    aoh_dir_plus_movies
+   
+   result = []
+   index = 0 
+   while index < movies_collection.length do
+     result << movie_with_director_name(name, movies_collection[index])
+     index += 1 
+   
+   end
+   pp aoh_dir_plus_movies
+   aoh_dir_plus_movies
 
 end
 
