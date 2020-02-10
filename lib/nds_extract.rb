@@ -51,11 +51,10 @@ def movies_with_director_key(name, movies_collection)
   
 
    
-   aoh_dir_plus_movies = []
+      result = []
    index = 0 
    while index < movies_collection.length do
-     movie_data = movies_collection[index]
-     aoh_dir_plus_movies << movie_with_director_name(name, movie_data)
+     result << movie_with_director_name(name, movies_collection[index])
      index += 1 
    
    end
