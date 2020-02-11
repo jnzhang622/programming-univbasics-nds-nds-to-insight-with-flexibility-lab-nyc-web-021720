@@ -84,7 +84,7 @@ def gross_per_studio(collection)
     result << (current[:studio], current[:worldwide_gross])
     index_index += 1
   else
-    result(current[:studio]) += source[:movies][:worldwide_gross]
+    result(current[:studio]) += current[:worldwide_gross]
     index_index += 1
   end
     result
