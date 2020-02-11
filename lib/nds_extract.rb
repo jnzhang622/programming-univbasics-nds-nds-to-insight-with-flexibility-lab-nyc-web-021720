@@ -73,17 +73,8 @@ def gross_per_studio(collection)
   # Hash whose keys are the studio names and whose values are the sum
   # total of all the worldwide_gross numbers for every movie in the input Hash
   
-  aoh_movies_with_dir = []
-   index = 0 
-   while index < source.count do 
-     name = source[index][:name]
-     movies_collection = source[index][:movies]
-     aoh_one_dir = movies_with_director_key(name, movies_collection)
-     aoh_movies_with_dir << aoh_one_dir
-     index += 1 
-   end
-   pp aoh_movies_with_dir
-   aoh_movies_with_dir
+  result = []
+   
 end
 
 def movies_with_directors_set(source)
