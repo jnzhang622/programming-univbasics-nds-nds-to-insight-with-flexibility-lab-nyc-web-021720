@@ -85,7 +85,7 @@ def gross_per_studio(collection)
     result[collection[index2][:studio]] += collection[index2][:worldwide_gross]
     index2 += 1
   end
-  pp result
+  result
 end
 
 def movies_with_directors_set(source)
