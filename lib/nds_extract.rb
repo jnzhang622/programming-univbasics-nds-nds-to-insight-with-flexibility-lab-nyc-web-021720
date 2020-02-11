@@ -77,7 +77,8 @@ def gross_per_studio(collection)
   
   result = []
   index - 0
-  
+  while
+  if source[:movies][:studio]
   
    
 end
