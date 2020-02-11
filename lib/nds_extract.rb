@@ -77,10 +77,11 @@ def gross_per_studio(collection)
   
   result = []
   index - 0
+  current = source[index][:movies][index2]
   while index < source.size do
     index2 = 0
   if source[index][:movies][index2][:studio] != result
-    result << source[index][:studio](source[index][:movies][:studio], source[index][:movies][:worldwide_gross])
+    result << source[index][:movies][index2][:studio][:studio](source[index][:movies][:studio], source[index][:movies][:worldwide_gross])
     index_index += 1
   else
     result(source[:movies][:studio]) += source[:movies][:worldwide_gross]
