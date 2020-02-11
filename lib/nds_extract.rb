@@ -99,7 +99,6 @@ def movies_with_directors_set(source)
    end
    aoh_movies_with_dir
  end
-end
 
 # ----------------    End of Your Code Region --------------------
 # Don't edit the following code! Make the methods above work with this method
