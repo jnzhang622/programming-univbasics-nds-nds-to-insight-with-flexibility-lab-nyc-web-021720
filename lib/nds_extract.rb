@@ -78,7 +78,9 @@ def gross_per_studio(collection)
   result = []
   index - 0
   while index < collection.size do
-    
+    index2 = 0
+    gross = 0
+    while index2 < collection[index][]
     
     
     
