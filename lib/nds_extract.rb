@@ -81,7 +81,8 @@ def gross_per_studio(collection)
     
     
     
-    result[]
+    
+    index += 1
   end
     result
    
