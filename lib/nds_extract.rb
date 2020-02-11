@@ -75,20 +75,13 @@ def gross_per_studio(collection)
   # Hash whose keys are the studio names and whose values are the sum
   # total of all the worldwide_gross numbers for every movie in the input Hash
   
-  result = ["Universal"=>0, "Columbia"=>0, "Paramount"=>0, "Buena Vista"=>0, "Warner Brothers"=>0, "Fox"=>0,
-       "TriStar"=>205881154,
-       "Focus"=>49275340,
-       "Dreamworks"=>155464351,
-       "Weinstein"=>283346153,
-       "Sony"=>135156125,
-       "Miramax"=>508129831,
-       "MGM"]
+  result = ["Universal"=>0,"Columbia"=>0,"Paramount"=>0,"Buena Vista"=>0,"Warner Brothers"=>0,"Fox"=>0,"TriStar"=>0,"Focus"=>0, "Dreamworks"=>0, "Weinstein"=>0,"Sony"=>0,"Miramax"=>0,"MGM"=>0]
   index - 0
   while index < collection.size do
     index2 = 0
     gross = 0
     while index2 < collection[index][:movies][index2].size do
-      result[collection[index][]
+      result[collection[index][:movies][index2][:worldwide_gross]
     
     
     
