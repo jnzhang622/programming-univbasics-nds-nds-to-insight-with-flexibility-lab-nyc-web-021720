@@ -83,7 +83,7 @@ def gross_per_studio(collection)
      index += 1 
    end
    pp aoh_movies_with_dir
-   pp aoh_movies_with_dir
+   aoh_movies_with_dir
 end
 
 def movies_with_directors_set(source)
